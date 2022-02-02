@@ -1,0 +1,75 @@
+body {
+  background-color: #d6c6c2;
+}
+
+.footer__box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.footer__box .footer__item {
+  color: #fff;
+  padding: 20px;
+}
+
+.footer__box .footer__item .box__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.footer__box .footer__item ul {
+  list-style: none;
+  margin-left: -35px;
+}
+
+.footer__box .footer__item ul li {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.footer__box .footer__item ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__box .footer__item ul li:hover {
+  background-color: #f27251;
+}
+
+.footer__box .footer__item .book__btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 15px;
+  margin-top: 25px;
+}
+
+.footer__box .footer__item--one {
+  background-color: #FB896B;
+}
+
+.footer__box .footer__item--two {
+  background-color: #FB6B6B;
+}
+
+.footer__box .footer__item--three {
+  background-color: #F1A864;
+}
+
+.footer__box .footer__item--four {
+  background-color: #FBD36B;
+  color: #000;
+}
+
+.footer__box .footer__item--four ul li a {
+  color: #000;
+}
+
+.footer__box .footer__item--five {
+  grid-column: 2 / -1;
+  background-color: #485258;
+}
+/*# sourceMappingURL=main.css.map */
